@@ -1,0 +1,177 @@
+{
+  "hero": {
+    "title": "Smart E-Waste Scheduler",
+    "subtitle": "India generates 3.2 million tonnes of e-waste annually. We're a team of first-year Biotech students building tech to change that — one scheduled pickup at a time.",
+    "cta": "Schedule a Free Pickup",
+    "badge": "🏆 LPU Hackathon 2026 Project",
+    "logo": "assets/lpu_logo.png"
+  },
+  "quotes": [
+    {
+      "text": "E-waste is the fastest growing waste stream in the world, and only 20% is formally recycled.",
+      "author": "António Guterres",
+      "role": "Secretary-General, United Nations"
+    },
+    {
+      "text": "The greatest threat to our planet is the belief that someone else will save it.",
+      "author": "Robert Swan",
+      "role": "First person to walk to both Poles"
+    },
+    {
+      "text": "We do not inherit the earth from our ancestors; we borrow it from our children.",
+      "author": "Mahatma Gandhi",
+      "role": "Father of the Nation, India"
+    }
+  ],
+  "vision": {
+    "title": "Our Vision",
+    "subtitle": "Bridging local action with global impact — from India to the world",
+    "india": {
+      "heading": "🇮🇳 India Vision 2030",
+      "points": [
+        { "icon": "🏭", "text": "Support India's goal to process 95% of e-waste domestically by 2030 under the E-Waste Management Rules" },
+        { "icon": "👩‍🌾", "text": "Empower 50,000+ informal waste workers with digital tools, fair wages, and safety training" },
+        { "icon": "🏫", "text": "Partner with 500+ colleges to set up campus e-waste collection drives across all 28 states" },
+        { "icon": "📱", "text": "Make e-waste scheduling accessible in 12 Indian languages via WhatsApp and UPI integration" }
+      ],
+      "stat": { "value": "3.2M", "label": "tonnes of e-waste generated in India annually — 3rd largest globally" }
+    },
+    "global": {
+      "heading": "🌍 Global Mission",
+      "points": [
+        { "icon": "🎯", "text": "Align with UN SDG 12 (Responsible Consumption) and SDG 13 (Climate Action) targets for 2030" },
+        { "icon": "🌐", "text": "Scale the open-source platform to 50+ countries, starting with Southeast Asia and Africa" },
+        { "icon": "⚖️", "text": "Advocate for Right to Repair legislation and Extended Producer Responsibility worldwide" },
+        { "icon": "🔬", "text": "Fund research into bio-leaching and green chemistry methods for precious metal recovery from PCBs" }
+      ],
+      "stat": { "value": "62M", "label": "tonnes of global e-waste by 2030 — only 22.3% is currently recycled (UN GWMO)" }
+    }
+  },
+  "features": [
+    {
+      "icon": "📅",
+      "title": "Smart Scheduling",
+      "desc": "AI-optimized route planning picks the best date and time slot based on your area's collection density."
+    },
+    {
+      "icon": "📍",
+      "title": "Nearby Recyclers",
+      "desc": "GPS-powered discovery of CPCB-certified e-waste recyclers within 10 km, with live slot availability."
+    },
+    {
+      "icon": "🌍",
+      "title": "Impact Tracking",
+      "desc": "Real-time dashboard showing CO₂ offset, heavy metals diverted from landfills, and your personal green score."
+    },
+    {
+      "icon": "🎁",
+      "title": "Green Rewards",
+      "desc": "Earn EcoCoins for every kg recycled — redeem for plant saplings, reusable bags, or donate to NGOs."
+    },
+    {
+      "icon": "🔔",
+      "title": "Smart Reminders",
+      "desc": "Get WhatsApp and email alerts 24 hours before pickup. Never miss a scheduled collection again."
+    },
+    {
+      "icon": "📊",
+      "title": "Leaderboard",
+      "desc": "Compete with your locality. Top recyclers each month win featured spots and bonus EcoCoins."
+    }
+  ],
+  "wasteTypes": [
+    { "name": "Smartphones & Tablets", "icon": "📱", "avgWeight": "0.3 kg" },
+    { "name": "Laptops & Computers", "icon": "💻", "avgWeight": "2.5 kg" },
+    { "name": "Batteries & Chargers", "icon": "🔋", "avgWeight": "0.2 kg" },
+    { "name": "TVs & Monitors", "icon": "📺", "avgWeight": "8.0 kg" },
+    { "name": "Printers & Scanners", "icon": "🖨️", "avgWeight": "5.5 kg" },
+    { "name": "Cables & Accessories", "icon": "🔌", "avgWeight": "0.5 kg" },
+    { "name": "Home Appliances", "icon": "🏠", "avgWeight": "4.0 kg" },
+    { "name": "PCBs & Circuit Boards", "icon": "🔧", "avgWeight": "0.8 kg" },
+    { "name": "Other Electronics", "icon": "⚡", "avgWeight": "1.0 kg" }
+  ],
+  "recyclers": [
+    { "name": "GreenTech Recyclers Pvt. Ltd.", "dist": "1.2 km", "rating": 4.8, "slots": 5, "cert": "CPCB Certified", "address": "Sector 12, Electronic City" },
+    { "name": "EcoCircuit Hub", "dist": "2.5 km", "rating": 4.6, "slots": 3, "cert": "ISO 14001", "address": "MG Road, Near Metro Station" },
+    { "name": "ReNew E-Waste Solutions", "dist": "3.8 km", "rating": 4.9, "slots": 7, "cert": "CPCB + ISO 14001", "address": "Industrial Area Phase II" },
+    { "name": "CleanChip Recycling Center", "dist": "5.1 km", "rating": 4.5, "slots": 2, "cert": "State PCB Licensed", "address": "Whitefield Main Road" }
+  ],
+  "recentPickups": [
+    { "user": "Arjun K.", "item": "2× Old Laptops", "area": "Koramangala", "time": "2 hours ago", "status": "Completed" },
+    { "user": "Meera S.", "item": "5× Phone Batteries", "area": "Indiranagar", "time": "4 hours ago", "status": "Completed" },
+    { "user": "Rahul P.", "item": "1× CRT Monitor", "area": "Jayanagar", "time": "6 hours ago", "status": "In Transit" },
+    { "user": "Sneha D.", "item": "3× Chargers + Cables", "area": "HSR Layout", "time": "8 hours ago", "status": "Completed" },
+    { "user": "Vikram T.", "item": "1× Printer", "area": "Marathahalli", "time": "12 hours ago", "status": "Completed" }
+  ],
+  "impact": {
+    "stats": [
+      { "icon": "🌱", "value": 12450, "unit": "kg", "label": "CO₂ Emissions Prevented" },
+      { "icon": "♻️", "value": 8320, "unit": "kg", "label": "E-Waste Recycled" },
+      { "icon": "🚛", "value": 3150, "unit": "", "label": "Pickups Completed" },
+      { "icon": "👥", "value": 1820, "unit": "", "label": "Active Users" },
+      { "icon": "🏭", "value": 47, "unit": "", "label": "Partner Recyclers" },
+      { "icon": "🌳", "value": 620, "unit": "", "label": "Trees Equivalent Saved" }
+    ],
+    "monthlyTrend": [
+      { "month": "Nov", "value": 520 },
+      { "month": "Dec", "value": 680 },
+      { "month": "Jan", "value": 810 },
+      { "month": "Feb", "value": 950 },
+      { "month": "Mar", "value": 1120 },
+      { "month": "Apr", "value": 1340 }
+    ],
+    "breakdown": [
+      { "category": "Phones & Tablets", "pct": 35, "color": "#2e7d32" },
+      { "category": "Laptops & PCs", "pct": 25, "color": "#4caf50" },
+      { "category": "Batteries", "pct": 20, "color": "#66bb6a" },
+      { "category": "TVs & Monitors", "pct": 12, "color": "#81c784" },
+      { "category": "Other", "pct": 8, "color": "#a5d6a7" }
+    ]
+  },
+  "rewards": {
+    "points": 2450,
+    "level": "Eco Champion",
+    "nextLevel": 3000,
+    "perks": ["Free plant sapling at 3000 pts", "10% off at EcoStore partner", "Featured on monthly leaderboard"],
+    "history": [
+      { "action": "Laptop Recycled (2.5 kg)", "pts": 150, "date": "15 Apr 2026" },
+      { "action": "Phone Recycled (0.3 kg)", "pts": 80, "date": "10 Apr 2026" },
+      { "action": "Referred 2 friends", "pts": 200, "date": "05 Apr 2026" },
+      { "action": "Battery Drop-off (0.4 kg)", "pts": 50, "date": "28 Mar 2026" },
+      { "action": "Cable bundle (1.2 kg)", "pts": 90, "date": "20 Mar 2026" },
+      { "action": "Old printer (5.5 kg)", "pts": 250, "date": "12 Mar 2026" }
+    ]
+  },
+  "team": [
+    {
+      "name": "Nishu Kumari",
+      "role": "Tech Lead & Team Member",
+      "bio": "B.Tech Biotechnology, 1st Year — Leads the development and drives the technical vision of the project.",
+      "image": "assets/team-nishu.svg",
+      "linkedin": "https://www.linkedin.com/in/nishu-kumari-077244380/"
+    },
+    {
+      "name": "Isha Yadav",
+      "role": "Team Member",
+      "bio": "B.Tech Biotechnology, 1st Year",
+      "image": "assets/team-isha.svg"
+    },
+    {
+      "name": "Kanishka Verma",
+      "role": "Team Member",
+      "bio": "B.Tech Biotechnology, 1st Year",
+      "image": "assets/team-kanishka.svg"
+    },
+    {
+      "name": "Yashaswi Gupta",
+      "role": "Team Member",
+      "bio": "B.Tech Biotechnology, 1st Year",
+      "image": "assets/team-yashaswi.svg"
+    }
+  ],
+  "footer": {
+    "tagline": "Built with 💚 by first-year Biotech students who believe technology can heal the planet.",
+    "links": ["About", "Privacy", "Terms", "Contact"],
+    "madeWith": "HTML · CSS · JavaScript · Zero Frameworks · 100% Static"
+  }
+}

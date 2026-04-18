@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart E-Waste Scheduler | EcoWaste</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Nav -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo">♻️ EcoWaste</a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#scheduler">Schedule</a>
+        <a href="#impact">Impact</a>
+        <a href="#rewards">Rewards</a>
+        <a href="#team">Team</a>
+      </div>
+      <div class="nav-live"><span class="pulse"></span> <span id="live-count">1,820</span> users online</div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-content reveal">
+      <div class="badge" id="hero-badge"></div>
+      <h1 id="hero-title"></h1>
+      <p id="hero-subtitle"></p>
+      <div class="hero-actions">
+        <a href="#scheduler" class="btn" id="hero-cta"></a>
+        <a href="#impact" class="btn btn-outline">See Our Impact ↓</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="earth-icon">🌏</div>
+      <div class="orbit orbit-1">📱</div>
+      <div class="orbit orbit-2">💻</div>
+      <div class="orbit orbit-3">🔋</div>
+    </div>
+  </section>
+
+  <!-- Quotes -->
+  <section id="quotes" class="section alt-bg">
+    <div id="quotes-carousel" class="reveal"></div>
+  </section>
+
+  <!-- Vision -->
+  <section id="vision" class="section">
+    <h2 class="section-title reveal" id="vision-title"></h2>
+    <p class="section-subtitle reveal" id="vision-subtitle"></p>
+    <div class="vision-grid">
+      <div class="card vision-card reveal" id="vision-india"></div>
+      <div class="card vision-card reveal" id="vision-global"></div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section">
+    <h2 class="section-title reveal">What Makes Us Different</h2>
+    <div id="features-grid" class="grid-3"></div>
+  </section>
+
+  <!-- Scheduler -->
+  <section id="scheduler" class="section alt-bg">
+    <h2 class="section-title reveal">Schedule a Pickup</h2>
+    <div class="scheduler-layout">
+      <form id="scheduler-form" class="card reveal">
+        <label>Your Name
+          <input type="text" id="pickup-name" placeholder="e.g. Nishu Kumari" required>
+        </label>
+        <label>Mobile Number
+          <input type="tel" id="pickup-mobile" placeholder="e.g. +91 98765 43210" pattern="[+0-9\s]{10,15}" required>
+        </label>
+        <label>What are you recycling?
+          <select id="waste-type"></select>
+        </label>
+        <div class="form-row">
+          <label>Pickup Date
+            <input type="date" id="pickup-date" required>
+          </label>
+          <label>Time Slot
+            <select id="time-slot">
+              <option>🌅 9:00 AM – 12:00 PM</option>
+              <option>☀️ 12:00 PM – 3:00 PM</option>
+              <option>🌇 3:00 PM – 6:00 PM</option>
+            </select>
+          </label>
+        </div>
+        <label>Pickup Address
+          <input type="text" id="address" placeholder="e.g. 42, MG Road, Koramangala, Bangalore" required>
+        </label>
+        <label>Special Instructions (optional)
+          <input type="text" id="instructions" placeholder="e.g. Ring doorbell, items in garage">
+        </label>
+        <button type="submit" class="btn btn-full">🚛 Confirm Free Pickup</button>
+        <div id="booking-progress" class="booking-progress hidden"></div>
+      </form>
+      <div id="booking-confirmation" class="card booking-card hidden"></div>
+      <div id="my-bookings"></div>
+    </div>
+    <div class="side-by-side reveal mt-2">
+        <div>
+          <h3>📍 Nearby Certified Recyclers</h3>
+          <div id="recyclers-list"></div>
+        </div>
+        <div>
+          <div class="live-header">
+            <span class="live-dot"></span>
+            <h3>Live Pickup Feed</h3>
+            <span class="live-badge">LIVE</span>
+          </div>
+          <div class="live-feed-container"><div id="live-feed"></div></div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Impact -->
+  <section id="impact" class="section">
+    <h2 class="section-title reveal">Our Environmental Impact</h2>
+    <p class="section-subtitle reveal">Real-time tracking of our collective contribution to a greener planet</p>
+    <div id="impact-stats" class="grid-3"></div>
+    <div class="impact-dashboard">
+      <div class="card reveal">
+        <h3>📈 Monthly Recycling Trend (kg)</h3>
+        <div id="impact-chart" class="bar-chart"></div>
+      </div>
+      <div class="card reveal">
+        <h3>📊 Waste Breakdown by Category</h3>
+        <div id="impact-breakdown"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rewards -->
+  <section id="rewards" class="section alt-bg">
+    <h2 class="section-title reveal">Your Green Rewards</h2>
+    <div class="rewards-layout">
+      <div class="card reward-summary reveal">
+        <div class="reward-points" id="reward-points"></div>
+        <div class="reward-level" id="reward-level"></div>
+        <div class="progress-bar"><div id="reward-progress"></div></div>
+        <small id="reward-next"></small>
+        <div id="reward-perks" class="perks"></div>
+      </div>
+      <div class="card reveal">
+        <h3>Recent Activity</h3>
+        <ul id="reward-history"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="section">
+    <h2 class="section-title reveal">Meet the Team</h2>
+    <p class="section-subtitle reveal">First-year B.Tech Biotechnology students building tech for a sustainable future</p>
+    <div id="team-grid" class="grid-4"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p id="footer-tagline"></p>
+    <div id="footer-links"></div>
+    <small>© 2026 Smart E-Waste Scheduler. Built for a greener tomorrow.</small>
+  </footer>
+
+  <!-- Toast -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
